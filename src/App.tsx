@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="w-[90vw] sm:w-100 flex flex-col items-center justify-center gap-4 text-center my-4">
       <div className="flex flex-col items-center justify-center gap-2 mt-4">
-        <h1 className="text-4xl sm:text-5xl mb-2">
+        <h1 className="text-5xl mb-2">
           <strong className="text-[#FFC107]">N</strong>ation{" "}
           <strong className="text-[#FFC107]">N</strong>avigator
         </h1>

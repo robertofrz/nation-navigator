@@ -15,7 +15,7 @@ function Autosuggest({ countries, handleShow }: AutosuggestProps) {
       )}
 
       {countries.length <= 10 && countries.length > 1 && (
-        <ul className="-mt-1 rounded-b-lg py-2 bg-[#1f2b3e]">
+        <ul className="-mt-2 rounded-b-lg py-2 bg-[#1f2b3e]">
           {countries.map((country) => (
             <li
               key={country.name.common}

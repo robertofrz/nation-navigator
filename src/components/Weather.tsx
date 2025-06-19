@@ -19,7 +19,9 @@ function Weather({ capital }: WeatherPropsType) {
 
   if (isLoading)
     return <td className={`${cellClass} animate-pulse`}>Loading weather</td>;
+
   if (error) return <td className={cellClass}>Error loading weather</td>;
+
   if (!data) return <td className={cellClass}>No weather available</td>;
 
   return <td className={cellClass}>{data.temperature}°C</td>;
